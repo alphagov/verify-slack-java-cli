@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: picocli-4.0.4.jar javax.ws.rs-api-2.1.1.jar fluent-hc-4.5.8.
+ jar httpmime-4.5.8.jar httpclient-4.5.8.jar httpcore-4.4.11.jar commons
+ -logging-1.2.jar commons-codec-1.11.jar
+Main-Class: uk.gov.gds.verify.slackcli.SlackCli
+
