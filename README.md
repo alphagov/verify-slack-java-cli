@@ -11,11 +11,9 @@ any channel you wish to use it in.
 
 `CHANNEL` this token can be found as the last part of the URL for a channel (right-click and "Copy link").
 
-As this is primarily designed for use within Concourse the `install.sh` script has been written with that in mind.  When 
-run it will build the java cli application and create a bash file called `slack-cli` in the root directory of this 
-project which can be used as follows:
+Build with `./gradlew clean install` then add `./build/install/verify-slack-java-cli/bin` to your path and run like so:
 
-`./slack-cli send-message "some useful message to be sent to the channel"`
+`verify-java-slack-cli send-message "some useful message to be sent to the channel"`
 
-`./slack-cli upload-file --file=somefile [--comment="an optional comment that gets posted with the file"]`
+`verify-java-slack-cli upload-file --file=somefile [--comment="an optional comment that gets posted with the file"]`
 
