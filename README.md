@@ -1,4 +1,9 @@
 # verify-slack-java-cli
+
+> **Verify has Closed**
+>
+>This repository is out of date and has been archived
+
 Simple cli tool to interact with Slack from within a Concourse pipeline (or anywhere else really).
 
 ## Suggested usage instructions
